@@ -1,0 +1,231 @@
+html,
+body{
+    height: 100%;
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+}
+:root {
+	--color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+    --color-white: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Header */
+
+.header{
+    background: var(--color-white);
+    
+}
+
+.header-link-text{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.ascend{
+    color: var(--color-iris);
+}
+
+/* Header Nav Link */
+
+.nav-link{
+    font-size: 16px;
+    line-height: calc(24 / 16);
+}
+.nav-link:hover, 
+.nav-link:focus{
+    color: var(--color-ocean);
+}
+
+/* Header Contact Links */
+
+.header-contact{
+    font-style: normal;
+}
+.contact-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: var(--color-slate);
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--color-ocean);
+}
+
+/* Effective solution sections */
+
+.main-effective-section{
+    background: var(--color-navy-blue);
+}
+.effective-section-titel{
+    width: 494px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    color: var(--color-white);
+}
+.button{
+    background: var(--color-iris);
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: var(--color-white);
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: inherit;
+}
+.button:hover,
+.button:focus,
+.button:active{
+    background: var(--color-ocean);
+}
+
+/* Startegy section */
+
+.desc-titel-text{
+    font-size: 20px;
+    line-height: calc(24 / 20);
+}
+.desc-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: var(--color-slate);
+}
+/* what are we doing section */
+
+.what-section-titel{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+}
+/* Our team section */
+
+.main-team-section{
+    background: var(--color-cloud);
+}
+.team-section-titel{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-transform: capitalize;
+}
+.team-desc{
+    background: var(--color-white);
+}
+.team-desc-headline{
+    font-size: 20px;
+    line-height: calc(24 / 20);
+}
+.team-desc-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: var(--color-slate);
+}
+
+/* Portfolio */
+
+.portfolio{
+    background: var(--color-white);
+}
+
+/* Portfolio buttons */
+
+.btn-desc{
+    background-color: var(--color-cloud);
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: var(--color-iris);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: inherit;
+}
+.btn-desc:focus,
+.btn-desc:hover,
+.btn-desc:active{
+    background-color: var(--color-ocean);
+    color: var(--color-white);
+}
+
+/* Portfolio IMG */
+
+.card-sec{
+    background: var(--color-white);
+      
+}
+.card-titel{
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    color: var(--color-grey);
+}
+.card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: var(--color-slate);
+}
+
+/* Footer */
+
+.footer{
+    background: var(--color-navy-blue);
+}
+.footer-link{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-cloud);
+}
+.ascend-footer{
+    color: var(--color-iris);
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: var(--color-cornflower);
+}
