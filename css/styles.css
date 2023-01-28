@@ -43,8 +43,7 @@ ul{
 /* Header */
 
 .header{
-    background: var(--color-white);
-    
+    background: var(--color-white);   
 }
 
 .header-link-text{
