@@ -1,7 +1,7 @@
 html,
 body{
     height: 100%;
-    font-family: 'Roboto';
+    font-family: 'Roboto'; 
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
@@ -19,6 +19,9 @@ body{
 	--color-grey: #2e2f42;
     --color-white: #FFFFFF;
 }
+
+/* Reset styles */
+
 a{
     text-decoration: none;
     color: inherit;
@@ -26,6 +29,31 @@ a{
 ul{
     list-style: none;
 }
+.container {
+    max-width: 1128px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+img {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, p{
+margin: 0;
+}
+.nav-link{
+    text-decoration: none;
+    color: currentColor;
+}
+.contact-link{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* Others */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -90,12 +118,16 @@ ul{
 .main-effective-section{
     background: var(--color-navy-blue);
 }
+
 .effective-section-titel{
     width: 494px;
     font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
     color: var(--color-white);
+    max-width: 494px;
+    margin-bottom: 48px;
+    text-align: center;
 }
 .button{
     background: var(--color-iris);
@@ -108,7 +140,11 @@ ul{
     border-radius: 4px;
     font-family: inherit;
     font-weight: inherit;
+    min-width: 169px;
+    min-height: 56px;
+    padding: 16px 32px;
 }
+
 .button:hover,
 .button:focus,
 .button:active{
@@ -134,6 +170,7 @@ ul{
     font-size: 36px;
     line-height: calc(40 / 36);
 }
+
 /* Our team section */
 
 .main-team-section{
@@ -217,6 +254,7 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-cloud);
+    margin-bottom: 16px;
 }
 .ascend-footer{
     color: var(--color-iris);
@@ -227,4 +265,6 @@ ul{
     font-size: 16px;
     line-height: calc(24 / 16);
     color: var(--color-cornflower);
+    max-width: 264px;
+    padding-bottom: 100px;
 }
