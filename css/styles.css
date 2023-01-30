@@ -190,6 +190,9 @@ p{
 
 /* Startegy section */
 
+.main-strategy-section{
+    background: var(--color-white);
+}
 .strategy-section-desc{
     display: flex;
     margin: 0;
@@ -214,6 +217,7 @@ p{
 /* what are we doing section */
 
 .main-what-section{
+    background: var(--color-white);
     display: flex;
     text-align: center;
     justify-content: space-between;
