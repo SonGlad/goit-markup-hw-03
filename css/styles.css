@@ -28,6 +28,8 @@ a{
 }
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 img {
     display: block;
@@ -97,7 +99,8 @@ p{
     line-height: calc(24 / 18);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding: 24px 76px 24px 0;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 .ascend{
     color: var(--color-iris);
@@ -112,8 +115,6 @@ p{
     display: flex;
     align-items: center;
     gap: 40px;
-    margin: 0;
-    padding: 0;
 }
 .nav-link{
     display: block;
@@ -195,8 +196,6 @@ p{
 }
 .strategy-section-desc{
     display: flex;
-    margin: 0;
-    padding: 0;
     flex-wrap: wrap;
     gap: 24px;
 }
@@ -236,8 +235,6 @@ p{
 .what-section-img{
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
     gap: 24px;
 }
 
@@ -264,8 +261,6 @@ p{
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    padding: 0;
-    margin: 0;
 }
 .team-desc{
     background: var(--color-white);
@@ -303,10 +298,9 @@ p{
 
 .btn {
     display: flex;
-    margin: 0;
     justify-content: center;
     gap: 24px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .btn-desc{
     background-color: var(--color-cloud);
@@ -319,6 +313,7 @@ p{
     border-radius: 4px;
     font-family: inherit;
     font-weight: inherit;
+    padding: 12px 24px;
 }
 .btn-desc:focus,
 .btn-desc:hover,
@@ -331,8 +326,6 @@ p{
 
 .card{
     display: flex;
-    margin: 0;
-    padding: 0;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -343,7 +336,7 @@ p{
     border: 1px solid #E7E9FC;
 }
 .card-sec-content{
-    padding: 32px 0;
+    padding: 32px 0 32px 16px;
 }
 .card-titel{
     font-size: 20px;
@@ -351,7 +344,6 @@ p{
     color: var(--color-grey);
     text-align: left;
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 .card-text{
     font-weight: 400;
@@ -359,7 +351,6 @@ p{
     line-height: calc(24 / 16);
     color: var(--color-slate);
     text-align: left;
-    margin-left: 16px;
 }
 
 /* Footer */
@@ -376,7 +367,6 @@ p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-cloud);
-    margin-bottom: 16px;
 }
 .ascend-footer{
     color: var(--color-iris);
@@ -387,4 +377,5 @@ p{
     line-height: calc(24 / 16);
     color: var(--color-cornflower);
     max-width: 264px;
+    margin-top: 16px;
  }
